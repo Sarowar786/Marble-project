@@ -1,0 +1,157 @@
+
+/* -----Common css start------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+/* -----Common css end------- */
+
+
+/* -----header css start------- */
+.nav_part{
+    background: #e5e5e5;
+}
+.nav-link:hover{
+    color:#1abb9c ;
+}
+
+.nav-link{
+    padding:20px 25px;
+    color: #000;
+    font-weight: bold;
+    transition: .3s;
+    font-family: 'Roboto Slab', serif;
+}
+/* -----header css end------- */
+
+
+/* -----hero css start------- */
+.hero_part{
+    background:url(../img/hero_image.jpg);
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+}
+.hero_con{
+    padding: 195px 85px ;
+    
+}
+.hero_text_2{
+    color: #a8a8a8;
+    padding-bottom: 35px;
+    font-weight:700;
+}
+.hero_text_1{
+    padding-bottom: 35px;
+    font-weight: bold;
+    font-size: 24px;
+    color:#f3f3f3;
+}
+.btn0{
+    background: #3f8dbf;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn0:hover{
+    background:tomato;
+    color:black;
+    border-radius: 5px 10px;
+}
+
+/* -----hero css end------- */
+
+
+/* -----service css start------- */
+.logo_1{
+    padding-top: 60px;
+}
+.service_con{
+    padding-bottom: 60px;
+}
+.service_part{
+    overflow-x: hidden;
+}
+.service_con:hover .logo_1{
+    transform: rotate(360deg);
+    transition: .5s;
+}
+/* -----service css end-------*/
+
+/* -----project part css start-------*/
+.text{
+    text-transform: uppercase;
+    padding-top: 60px;
+    color: #4e4e4e;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.project_inner_con p{
+    padding-bottom: 55px;
+}
+.project_inner_con h3{
+    color: #4e4e4e;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.project_inner_con h5{
+    color: #adadad;
+    font-weight:500;
+}
+
+
+/* -----project part css end-------*/
+
+.text_2{
+    padding: 110px 420px 65px; 
+    color: #a1a1a1;
+    background: #efefef;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+/* -----footer part css stat-------*/
+.footer_part{
+    background: #1d1d1d;
+    color: #cacaca;
+}
+.footer_con_inner{
+    padding-top: 24px;
+}
+.footer_con h3{
+    padding-top: 45px;
+}
+.d-flex p{
+    padding-left: 20px;
+    margin-top: -7px;
+}
+.text-3{
+    padding-top: 15px;
+}
+.hr{
+    padding-bottom: 75px;
+}
+.footer{
+    padding: 50px 0;
+}
+/* ----footer part css end-------*/
